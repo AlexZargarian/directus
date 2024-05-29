@@ -1,0 +1,41 @@
+.product-detail {
+  padding: 20px;
+}
+
+.product-detail h1 {
+  margin-bottom: 20px;
+}
+
+.product-detail p {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.product-detail strong {
+  display: inline-block;
+  width: 150px;
+}
+
+.product-detail form {
+  display: flex;
+  flex-direction: column;
+}
+
+.product-detail form div {
+  margin-bottom: 10px;
+}
+
+.product-detail form label {
+  margin-right: 10px;
+}
+
+.product-detail form input {
+  padding: 5px;
+  font-size: 16px;
+}
+
+.product-detail button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}

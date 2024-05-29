@@ -1,0 +1,52 @@
+.class-detail-edit {
+    padding: 20px;
+    position: relative;
+    min-height: 100vh; 
+  }
+  
+  .class-detail-edit h1 {
+    margin-bottom: 20px;
+  }
+  
+  .class-detail-edit form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .class-detail-edit form div {
+    margin-bottom: 10px;
+  }
+  
+  .class-detail-edit form label {
+    margin-right: 10px;
+  }
+  
+  .class-detail-edit form input,
+  .class-detail-edit form textarea,
+  .class-detail-edit form select {
+    padding: 5px;
+    font-size: 16px;
+  }
+  
+  .class-detail-edit form textarea {
+    resize: vertical; /* Allow vertical resizing */
+  }
+  
+  .class-detail-edit button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .back-button {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+  }
+  
+  .error {
+    color: red;
+    margin-top: 5px;
+  }
+  
